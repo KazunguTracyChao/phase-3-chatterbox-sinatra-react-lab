@@ -1,3 +1,7 @@
+require_relative '../spec_helper'
+require_relative '../../app/models/message'
+
+
 describe Message do
   let(:message) { Message.first }
 
